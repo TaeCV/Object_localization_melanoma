@@ -25,4 +25,5 @@ IMG_PTH = "./example.jpg"
 mask_rcnn_model = init_detector(MODEL_CONFIG, CHECKPOINT_PTH, device='cpu')
 result = inference_detector(mask_rcnn_model, IMG_PTH)
 predicted_result = filter(result, 0.3)
+print(predicted_result)
 #show_result_pyplot(mask_rcnn_model, IMG_PTH, result, score_thr=0.3)
