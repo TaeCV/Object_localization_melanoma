@@ -8,7 +8,7 @@ Choose one way to install dependencies.
 
 installation requirement https://github.com/open-mmlab/mmdetection/blob/master/docs/en/get_started.md
 
-### 2)Installation with requirements.txt
+### 2) Installation with requirements.txt
 
 pip3 install -re requirements.txt
 
