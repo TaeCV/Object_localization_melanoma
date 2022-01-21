@@ -1,10 +1,14 @@
 # Object_localization_melanoma
 
-## Installation in mmdetection documentation
+## Installation
+
+Choose one way to install dependencies.
+
+### 1) Installation in mmdetection documentation
 
 installation requirement https://github.com/open-mmlab/mmdetection/blob/master/docs/en/get_started.md
 
-## Installation with requirements.txt
+### 2)Installation with requirements.txt
 
 pip3 install -re requirements.txt
 
