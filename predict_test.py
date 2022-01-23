@@ -20,7 +20,7 @@ def filter(result, threshold):
 
 
 MODEL_CONFIG = "./model_config_SmoothL1.py"
-CHECKPOINT_PTH = "./epoch_12.pth"
+CHECKPOINT_PTH = "./mask_rcnn_smoothl1.pth"
 IMG_PTH = "./example.jpg"
 mask_rcnn_model = init_detector(MODEL_CONFIG, CHECKPOINT_PTH, device='cpu')
 result = inference_detector(mask_rcnn_model, IMG_PTH)
